@@ -1,0 +1,58 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Files for the ART/Dalvik VM
+*.class
+
+# Generated & build directories
+build/
+app/build/
+android/build/
+android/app/build/
+release-artifacts/
+.build-outputs/
+dist/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Node / Web artifacts (if any)
+node_modules/
+
+# Gradle & Kotlin caches
+.gradle/
+.kotlin/
+
+# Keep Gradle Wrapper files tracked for CI/CD
+!gradlew
+!gradlew.bat
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration & secrets
+local.properties
+.env
+.env.*
+!.env.example
+
+# Keystores (keep base64 debug template for CI fallback)
+debug.keystore
+*.jks
+*.keystore
+!debug.keystore.base64
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS & Log files
+.DS_Store
+Thumbs.db
+*.log
